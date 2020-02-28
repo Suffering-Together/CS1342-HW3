@@ -15,10 +15,10 @@ import sys
 vehicle = ""    #string (single character) value of the type of vehicle
                 #input: "C" or "c" = car, "B" or "b" = bus, "T" or "t" = truck
 
-hours = 0       #interger value of the amount of hours parked in lot
+hours = 0       #integer value of the amount of hours parked in lot
                 #input: must be in range 1-23
 
-minutes = 0     #interger value of the amount of remainder minutes parked in lot
+minutes = 0     #integer value of the amount of remainder minutes parked in lot
                 #input: must be in range 1-60
 
 tot_hours = 0.0 #float value giving total time parked in hours factoring in minutes
